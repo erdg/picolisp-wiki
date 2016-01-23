@@ -59,7 +59,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* menu */
 #menu {
-  background: #080808;
+  background: #090910;
   width: 100%;
 }
 
@@ -69,8 +69,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #menu a {
-  color: #4b4b4b;
+  color: #8c8faf;
   text-decoration: none;
+  font-size: 1.1em;
+  font-weight: bold;
   padding: none;
   display: block;
 }
@@ -110,7 +112,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #menu a:hover,
 #menu a:focus {
-    color: #f05658;
+    color: #afafaf;
     border: none;
 }
 
@@ -159,8 +161,8 @@ h1, h2, h3, h4, h5, h6 {
 #expires {
    position: absolute;
    top: 8px;
-   right: 8px;
-   color: red;
+   right: 22px;
+   color: #f05658;
    font-size: small;
 }
 

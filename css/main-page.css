@@ -94,6 +94,7 @@ fieldset {
 
 .features {
   z-index: 1;
+  background: #eee;
 }
 
 .features ul {

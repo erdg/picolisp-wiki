@@ -19,7 +19,7 @@
    *Blob "db/wiki/blob/"
    *Jnl (and (info "fifo/wiki") "fifo/wiki")
    *Salt (16 . "$6$@1$")
-   #*Css '("wiki/css/ungrid.css" "wiki/css/container.css")
+   *Css '("@lib.css")
    *WikiPort 5000 )
 
 (setq *WikiCss 
