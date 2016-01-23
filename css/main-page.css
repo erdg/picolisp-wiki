@@ -1,0 +1,133 @@
+body {
+  font-family: 'Exo';
+  margin: 0;
+  background-color: #090910;
+}
+
+.pl-code-bg {
+  position: relative;
+  z-index: 1;
+}
+
+.pl-code-bg:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0; 
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../img/Desktop/pl-code.jpg") no-repeat;
+  opacity: 0.06;
+}
+
+/*********/
+/* utils */
+
+/* colors */
+.green { color: #6dc066 }
+.blue  { color: #6067af }
+.red   { color: #f05658 }
+
+.black { color: #080808; }
+.darkest-grey {color: #0f0f0f}
+.darker-grey  {color: #212121}
+.dark-grey    {color: #333333}
+.light-grey   {color: #4b4b4b}
+.lighter-grey {color: #989898}
+
+.white { color: white }
+
+.black-bg { background-color: #080808; }
+.darker-grey-bg { background-color: #212121; }
+.dark-grey-bg  { background-color: #333333; }
+.white-bg { background-color: white; }
+
+.fw-300 { font-weight: 300; }
+.fw-500 { font-weight: 500; }
+.fw-700 { font-weight: 700; }
+
+
+/**********/
+/* header */
+
+
+
+/*********************/
+/* propaganda stripe */
+.stripe
+{
+  color: white;
+}
+
+/*************/
+/* demo repl */
+textarea {
+  overflow: auto;
+  resize: none;
+}
+
+fieldset {
+  border: none;
+  font-family: 'Inconsolata';
+  margin: 0;
+}
+
+.try-it {
+  background-color: #212121;
+  z-index: 2;
+}
+
+.try-it-line
+{
+  width: 100%;
+  border-radius: 8px;
+}
+
+.try-it-view,
+.try-it-view:active
+{
+  border: none;
+}
+
+.features {
+  z-index: 1;
+}
+
+.features ul {
+  list-style: none;
+}
+
+.features a {
+  font-weight: 700;
+  text-decoration: none;
+  color: #6067af;
+  /*color: #f05658;*/
+  /*color: #6dc066;*/
+}
+
+.features ul a {
+  font-size: 1.2em;
+}
+
+.features ul {
+}
+
+.features a:hover {
+  font-style: italic;
+}
+
+.features p {
+  color: #686868;
+}
+
+.features h4 {
+  font-weight: 500;
+  color: #090910;
+}
+
+
+footer {
+}

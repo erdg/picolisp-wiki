@@ -1,0 +1,49 @@
+nav {
+  list-style: none;
+  background: #080808;
+}
+
+nav a {
+  color: #4b4b4b;
+  text-decoration: none;
+}
+
+.to-nav {
+  text-decoration: none;
+  padding: 16px;
+  display: block;
+}
+
+.to-nav:before {
+  content: "";
+  position:absolute;
+  right: 2em;
+  top: 1em;
+  width: 1.6em;
+  height: 0.2em;
+  background: #6dc066;  /* PL green */
+  box-shadow: 
+    0 0.4em 0 0 #6dc066,
+    0 0.8em 0 0 #6dc066;
+}
+
+nav a:hover,
+nav a:focus {
+    color: #f05658;
+    border: none;
+}
+
+@media screen and (min-width: 768px) {
+  nav {
+    background: transparent;
+    z-index: 2;
+  }
+  #primary-nav {
+    position: absolute;
+    top: 44px;
+    left: 44px;
+  }
+  .to-nav {
+    display: none;
+  }
+}

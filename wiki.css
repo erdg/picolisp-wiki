@@ -1,0 +1,289 @@
+/* 07aug13abu
+ * 30jan12jk
+ * (c) Software Lab. Alexander Burger
+ */
+
+.left {float: left}
+.right {float: right}
+.clr {clear: both}
+.norm {text-align: left}
+.align {text-align: right}
+.center {text-align: center}
+.black {color: black}
+.red {color: red}
+.green {color: green}
+.blue {color: blue}
+.bold {font-weight: bold}
+.mono {font-family: monospace}
+
+fieldset {
+   padding: 0.3em 0.4em 0.7em 0.8em;  /* ie */
+}
+
+input, textarea, select {
+   font-size: small;
+   background-color: white;
+}
+
+body {
+   background-color: #eee;
+   margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   clear: both;
+}
+
+#searchGrp {
+  padding-left: 28px;
+}
+#searchGrp form {
+   margin: 0;
+}
+
+#searchGrp input {
+   margin: 0;
+}
+
+#searchGrp input[type="text"] {
+   width: 11em;
+}
+
+#searchGrp a {
+   font-size: small;
+}
+
+#searchGrp a:hover {
+   color: #903;
+}
+
+/* menu */
+#menu {
+  background: #080808;
+  width: 100%;
+}
+
+#menu ul {
+  list-style: none;
+  padding: none;
+}
+
+#menu a {
+  color: #4b4b4b;
+  text-decoration: none;
+  padding: none;
+  display: block;
+}
+
+#menu a img {
+  padding-top: 16px;
+  padding-left: 40px;
+}
+
+#menuLogin {
+  padding-left: 24px;
+  padding-bottom: 16px;
+}
+
+#menuLogin a {
+  padding-left: 16px
+}
+
+.to-nav {
+  text-decoration: none;
+  padding: 16px;
+  display: block;
+}
+
+.to-nav:before {
+  content: "";
+  position:absolute;
+  right: 2em;
+  top: 1em;
+  width: 1.6em;
+  height: 0.2em;
+  background: #6dc066;  /* PL green */
+  box-shadow: 
+    0 0.4em 0 0 #6dc066,
+    0 0.8em 0 0 #6dc066;
+}
+
+#menu a:hover,
+#menu a:focus {
+    color: #f05658;
+    border: none;
+}
+
+@media screen and (min-width: 900px) {
+  #menu {
+    z-index: 2;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+  }
+  #menu a {
+    float: left;
+  }
+  #menu a img {
+    padding-bottom: 12px;
+  }
+  #menu ul {
+    display: inline;
+    float: left;
+    padding-top: 16px;
+  }
+  #menu li, a {
+    display: inline-block;
+    padding-right: 8px;
+  }
+  #searchGrp, #menuLogin {
+    display: inline-block;
+    float: right;
+  }
+  #searchGrp {
+    padding-top: 22px;
+    padding-left: 8px;
+  }
+  #menuLogin {
+    padding-top: 30px;
+    padding-left: 32px;
+  }
+  .to-nav {
+    display: none;
+  }
+}
+
+
+
+#expires {
+   position: absolute;
+   top: 8px;
+   right: 8px;
+   color: red;
+   font-size: small;
+}
+
+.code {
+   font-size: smaller;
+   font-family: monospace;
+   background-color: #cccee5;
+   border-color: #6067af;
+   border-radius: 2px;
+   margin: 0px;
+   padding: 2px
+}
+
+.search {
+   border-style: none;
+}
+
+.login {
+   background-color: #F0F0F0;
+}
+
+.edit {
+   background-color: #F0F0F0;
+}
+
+/* From 'form' GUI */
+.chart {
+   width: 100%;
+   white-space: nowrap;
+}
+
+.chart td {
+   background-color: #E0E0E0;
+}
+
+.chart td.T {
+   background-color: #D0D0D0;
+}
+
+.chart td.nil {
+   background-color: white;
+}
+
+.btn {
+   width: 1em;
+}
+
+.submit {
+   font-weight: bold;
+   background-color: #D0D0D0;
+   background-image: -moz-linear-gradient(top, #eee, #ccc);
+   background-image: -webkit-linear-gradient(top, #eee, #ccc);
+   background-image: linear-gradient(top, #eee, #ccc);
+   border: 1px solid #777;
+   border-radius: .3em;
+   box-shadow: 0 0 1px 1px rgba(255,255,255,.8) inset, 0 1px 0 rgba(0,0,0,.3);
+}
+
+.submit:hover {
+   background-image: -moz-linear-gradient(top, #fafafa, #ddd);
+   background-image: -webkit-linear-gradient(top, #fafafa, #ddd);
+   background-image: linear-gradient(top, #fafafa, #ddd);
+}
+
+.submit:active {
+   box-shadow: 0 0 4px 2px rgba(0,0,0,.3) inset;
+   position: relative;
+   top: 1px;
+}
+
+/* Errors */
+.error {
+   color: red;
+   background-color: yellow;
+}
+
+.tiny {
+   font-size: xx-small;
+   padding: 1px;
+}
+
+.note, .ask {
+   font-weight: bold;
+}
+
+.alert {
+   display: inline;
+   padding: 1ex;
+   margin: 1ex 0 1ex 5em;
+   background-color: yellow;
+   border: dashed thin;
+}
+
+.alert input {
+   margin-top: 1ex;
+}
+
+.dialog {
+   padding: 1ex;
+   margin: 1ex 5em 1ex 1em;
+   border: dashed thin;
+   background-color: #F0F0F0;
+}
+
+.hint {
+   font-size: small;
+   font-family: sans-serif;
+   line-height: 140%;
+   background-color: rgba(112,112,112,0.3);
+}
+
+.hints {
+   font-size: small;
+   color: black;
+   padding-left: 0.4em;
+   padding-top: 2px;
+   padding-bottom: 2px;
+   border: 1px solid;
+   background-color: white;
+   cursor: default;
+}
+
+/* Social share privacy buttons */
+#socialshareprivacy img {
+   margin: 0;
+}
