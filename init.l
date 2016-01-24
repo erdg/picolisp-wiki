@@ -23,16 +23,6 @@
       u `(db 'nm '+User "admin")
       d `(date)
       t `(time)
-      sum "Initial start page"
-      txt "wiki/home.txt" )
-   'doc
-   (db 'nm '+Doc "home") )
-
-(put>
-   (obj ((+Mup))
-      u `(db 'nm '+User "admin")
-      d `(date)
-      t `(time)
       sum "Initial menu"
       txt "wiki/menu.txt" )
    'doc

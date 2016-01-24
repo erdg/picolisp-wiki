@@ -79,13 +79,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #menu a img {
-  padding-top: 16px;
+  padding-top: 32px;
   padding-left: 40px;
 }
 
 #menuLogin {
   padding-left: 24px;
-  padding-bottom: 16px;
+  padding-top: 16px;
+  padding-bottom: 32px;
 }
 
 #menuLogin a {
@@ -113,7 +114,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #menu a:hover,
 #menu a:focus {
-    color: #afafaf;
+    color: #a9daa6;
     border: none;
 }
 
@@ -129,16 +130,17 @@ h1, h2, h3, h4, h5, h6 {
     float: left;
   }
   #menu a img {
+    padding-top: 16px;
     padding-bottom: 12px;
   }
   #menu ul {
     display: inline;
     float: left;
-    padding-top: 16px;
+    padding-top: 18px;
   }
   #menu li {
     display: inline-block;
-    padding-right: 16px;
+    padding-right: 24px;
   }
   #searchGrp, #menuLogin {
     display: inline-block;
@@ -151,6 +153,7 @@ h1, h2, h3, h4, h5, h6 {
   #menuLogin {
     padding-top: 30px;
     padding-left: 32px;
+    padding-bottom: 16px;
   }
   .to-nav {
     display: none;
@@ -171,9 +174,11 @@ h1, h2, h3, h4, h5, h6 {
    font-size: smaller;
    font-family: monospace;
    background-color: #cccee5;
-   border-color: #6067af;
-   border-radius: 2px;
-   margin: 0px;
+   border-left-color: #6067af;
+   border-left-style: solid;
+   border-left-width: 4px;
+   border-radius: 4px;
+   margin: 16px;
    padding: 2px
 }
 
