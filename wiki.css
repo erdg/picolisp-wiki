@@ -22,7 +22,7 @@ fieldset {
 
 input, textarea, select {
    font-size: small;
-   background-color: white;
+   background-color: #eee;
 }
 
 body {
@@ -42,12 +42,33 @@ h1, h2, h3, h4, h5, h6 {
    margin: 0;
 }
 
-#searchGrp input {
-   margin: 0;
+#searchGrp strong {
+  color: #f05658;
 }
 
-#searchGrp input[type="text"] {
-   width: 11em;
+#searchGrp input {
+   margin: 0;
+   border: 2px solid;
+   border-color: #8c8faf;
+   background-color: #cccee5;
+}
+
+#searchGrp .submit {
+   background-color: #090910;
+   font-weight: bold;
+   border: 2px solid;
+   border-color: #8c8faf;
+   color: #8c8faf;
+}
+
+#searchGrp .submit:hover {
+   border-color: #6dc066;
+   color: #6dc066;
+}
+
+#searchGrp .submit:active {
+  color: #090910;
+  background-color: #6dc066;
 }
 
 #searchGrp a {
@@ -85,7 +106,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #menuLogin {
   padding-left: 24px;
-  padding-top: 16px;
+  padding-top: 12px;
   padding-bottom: 32px;
 }
 
@@ -114,7 +135,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #menu a:hover,
 #menu a:focus {
-    color: #a9daa6;
+    color: #6dc066;
     border: none;
 }
 
@@ -177,7 +198,6 @@ h1, h2, h3, h4, h5, h6 {
    border-left-color: #6067af;
    border-left-style: solid;
    border-left-width: 4px;
-   border-radius: 4px;
    margin: 16px;
    padding: 2px
 }
@@ -190,9 +210,28 @@ h1, h2, h3, h4, h5, h6 {
    background-color: #F0F0F0;
 }
 
+/*
 .edit {
-   background-color: #F0F0F0;
+   background-color: #cccee5;
+   border: 2px solid #090910;
 }
+
+.edit .submit {
+  border: 2px solid #6dc066;
+  color: #6dc066;
+  background-color: #090910;
+  font-weight: bold;
+}
+
+.edit .submit:hover {
+  color: #090910;
+  background-color: #6dc066;
+}
+
+.edit h2 {
+  color: #6dc066;
+}
+*/
 
 /* From 'form' GUI */
 .chart {
@@ -216,6 +255,7 @@ h1, h2, h3, h4, h5, h6 {
    width: 1em;
 }
 
+/*
 .submit {
    font-weight: bold;
    background-color: #D0D0D0;
@@ -238,6 +278,7 @@ h1, h2, h3, h4, h5, h6 {
    position: relative;
    top: 1px;
 }
+*/
 
 /* Errors */
 .error {
