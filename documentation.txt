@@ -1,3 +1,5 @@
 1{PicoLisp Documentation}
 
 This will be the PicoLisp Documentation Page.
+
+={Help}

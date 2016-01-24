@@ -26,7 +26,8 @@
    (list
       "wiki/css/ungrid.css" 
       "wiki/css/container.css" 
-      "wiki/css/typograph.css"
+      "wiki/css/typography.css"
+      "https://fonts.googleapis.com/css?family=Exo:700,500,300"
       "wiki/css/responsive-utils.css"
       "wiki/wiki.css") )
 

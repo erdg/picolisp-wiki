@@ -74,11 +74,11 @@
 
 (de nav ()
   (<nav> '("pl-s pr-s pt-m pb-m" (id . "primary-nav"))
-    (<style> "rwd-img pb-s d-b"
+    (<style> "rwd-img d-b pb-s big-pl-l"
       (small-icon) )
     (<style> "d-b tt-u"
-      (<li> "pb-s" (<href> "Download" "#"))        
-      (<li> "pb-s" 
+      (<li> "big-pl-l" (<href> "Download" "#"))        
+      (<li> NIL
         (<href> "Documentation"
           (if *Login
             (baseHRef NIL *SesId "?documentation")

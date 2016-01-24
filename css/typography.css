@@ -29,7 +29,7 @@ h6 {
 }
 
 /* large-ish screens */
-@media (min-width: 768px) {
+@media (min-width: 1080px) {
   h1 { font-size: 4.0rem; }
   h2 { font-size: 3.4rem; }
   h3 { font-size: 2.8rem; }

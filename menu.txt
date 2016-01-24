@@ -2,5 +2,4 @@
    -{^{http://software-lab.de/down.html Download}}
    -{={Documentation}}
    -{={Community}}
-   -{={Help}}
 }
