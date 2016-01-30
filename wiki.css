@@ -35,6 +35,19 @@ h1, h2, h3, h4, h5, h6 {
    clear: both;
 }
 
+/* Links */
+a {
+  font-weight: bold;
+  color: #6067af;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+    color: #6dc066;
+}
+
+
+
 #searchGrp {
   padding-left: 28px;
 }
@@ -50,7 +63,11 @@ h1, h2, h3, h4, h5, h6 {
    margin: 0;
    border: 2px solid;
    border-color: #8c8faf;
-   background-color: #cccee5;
+   background-color: #eee;
+}
+
+#searchGrp input:focus {
+  border-color: #6dc066;
 }
 
 #searchGrp .submit {

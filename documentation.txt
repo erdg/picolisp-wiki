@@ -1,6 +1,47 @@
-1{PicoLisp Documentation}
+<{wiki/img/icon/PicoLisp_Icon_medium.png}1{Documentation}
 
 This will be the PicoLisp Documentation Page.
 
-3{PicoLisp Wiki}
+2{Start Here}
+
+={basics The Basics}&{1}
+For those new to PicoLisp, programming, or both. An unassuming, unintimidating
+guide to programming in general, PicoLisp in particular. 
+
+={zero-to-sixty PicoLisp - Zero to Sixty}&{1}
+For those who know how to drive, and just want to go fast.
+
+^{http://software-lab.de/doc/ref.html The PicoLisp Reference}&{1}
+The one, the only. The Machine. 
+
+^{http://software-lab.de/doc/tut.html The PicoLisp Tutorial}&{1}
+The definitive beginners guide.
+
+
+2{Build Things}
+Quick tutorials to get newcomers building things and having fun.
+
+2{Dig Deeper}
+The source for knowledge of the PicoLisp internals.
+
+
+3{Scripting}
+Using the PicoLisp interpreter for fun and productivity. 
+
+3{Network Programming}
+
+3{The PicoLisp DB}
+The PicoLisp database explained. 
+
+3{Object Oriented Programming}
+The place for all things related to OOP in PicoLisp.
+
+3{Functional Programming}
+All things functional in PicoLisp
+
+3{Metaprogramming}
+It's different here, but simple and fun once you get the hang of it. We'll
+show you how.
+
+3{About the Wiki}
 ={Help Markup Syntax}

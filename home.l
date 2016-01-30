@@ -53,7 +53,6 @@
 ###########
 # main page
 (de home ()
-  (app)
   (action 
     (html 0 "PicoLisp" *HomeCss "pl-code-bg"
         (to-nav)
@@ -102,11 +101,11 @@
       (<header> "mt-0 mb-0 
                  pt-l pb-l pl-s pr-s
                  big-pt-xl big-pb-xl"
-        (<h1> "white ta-c fw-b
+        (<h1> "ta-c fw-b
               mt-0 mb-l"
           "PicoLisp" )
         (header-icon)
-        (<h3> "white ta-c fs-i
+        (<h3> "ta-c fs-i
                mt-l mb-0"
           "programming simplified" ) ) ) )
 
@@ -171,8 +170,8 @@
 (de features ()
   (<div> "features
           mt-0 mb-0
-          pt-m pb-m big-pt-xl big-pb-xl
-          white-bg"
+          pt-m pb-m big-pt-xl big-pb-xl"
+          
     (<div> "container row"
       (<div> "col big-pl-l big-pr-l"
         (Simple)
