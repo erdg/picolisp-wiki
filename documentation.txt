@@ -5,17 +5,18 @@ This will be the PicoLisp Documentation Page.
 2{Start Here}
 
 ={basics The Basics}&{1}
-For those new to PicoLisp, programming, or both. An unassuming, unintimidating
-guide to programming in general, PicoLisp in particular. 
+For those new to PicoLisp, programming, or both. An unassuming and
+unintimidating guide to programming in general, PicoLisp in particular. 
 
 ={zero-to-sixty PicoLisp - Zero to Sixty}&{1}
-For those who know how to drive, and just want to go fast.
+For those who know how to drive and just want to go fast.
 
 ^{http://software-lab.de/doc/ref.html The PicoLisp Reference}&{1}
 The one, the only. The Machine. 
 
 ^{http://software-lab.de/doc/tut.html The PicoLisp Tutorial}&{1}
-The definitive beginners guide.
+The definitive beginners guide. Assumes you've at least skimmed the reference
+and have some prior programming experience. 
 
 
 2{Build Things}
