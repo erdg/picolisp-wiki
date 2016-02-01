@@ -105,8 +105,7 @@
               mt-0 mb-l"
           "PicoLisp" )
         (header-icon)
-        (<h3> "ta-c fs-i
-               mt-l mb-0"
+        (<h3> "ta-c mt-l mb-0"
           "programming simplified" ) ) ) )
 
 (de header-icon ()
@@ -154,7 +153,7 @@
 ###################
 # propaganda stripe 
 (de stripe ()
-  (<div> "stripe fs-i
+  (<div> "stripe 
           mt-0 mb-0 
           pt-m pb-m pl-s pr-s
           big-pt-l big-pb-l"
