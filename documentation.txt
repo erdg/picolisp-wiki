@@ -1,8 +1,10 @@
-<{wiki/img/icon/PicoLisp_Icon_medium.png}1{Documentation}
+1{Documentation}
 
 This will be the PicoLisp Documentation Page.
 
 2{Start Here}
+^{http://software-lab.de/doc/man.html Manual Page}&{1}
+
 
 ={basics The Basics}&{1}
 For those new to PicoLisp, programming, or both. An unassuming and
@@ -24,6 +26,30 @@ Quick tutorials to get newcomers building things and having fun.
 
 2{Dig Deeper}
 The source for knowledge of the PicoLisp internals.
+
+
+3{Libraries}
+
+^{http://software-lab.de/doc/native.html Native C Calls}&{1}
+Leveraging C libraries for your PicoLisp projects.
+
+^{https://github.com/aw/picolisp-unit picolisp-unit}&{1}
+A Unit Testing framework for PicoLisp.
+
+^{https://github.com/aw/picolisp-nanomsg picoLisp-nanomsg}&{1}
+^{http://nanomsg.org Nanomsg} FFI bindings for PicoLisp.
+
+^{https://github.com/aw/picolisp-json picolisp-json}&{1}
+JSON encoder/decoder FFI bindings for PicoLisp.
+
+^{https://github.com/aw/picolisp-https picolisp-https}&{1}
+HTTP(S) client for PicoLisp.
+
+^{https://github.com/aw/picolisp-bcrypt picolisp-bcrypt}&{1}
+bcrypt hashing for PicoLisp.
+
+^{https://github.com/gleetbone/picolisp-fp picolisp-fp}&{1}
+A floating point math library for 64 bit PicoLisp.
 
 
 3{Scripting}
