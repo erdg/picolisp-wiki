@@ -33,6 +33,11 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
    clear: both;
+   color: #222554;
+}
+
+ul {
+  list-style-type: square;
 }
 
 /* Links */
@@ -216,8 +221,7 @@ a:focus {
    border-left-color: #6067af;
    border-left-style: solid;
    border-left-width: 4px;
-   margin: 16px;
-   padding: 2px
+   padding: 2px;
 }
 
 .search {
