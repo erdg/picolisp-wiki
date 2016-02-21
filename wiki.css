@@ -51,6 +51,29 @@ a:focus {
     color: #6dc066;
 }
 
+/* container */
+.container {
+  position: relative;
+  display: block;
+  width: 100%;
+  max-width: 1080;
+  margin: 0 auto;
+  box-sizing: border-box; }
+
+/* For devices larger than 400px */
+@media (min-width: 400px) {
+  .container {
+    width: 86%;
+  }
+}
+
+@media (min-width: 800px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+
 
 
 #searchGrp {
