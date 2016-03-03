@@ -33,11 +33,12 @@ body {
 h1, h2, h3, h4, h5, h6 {
    color: #333766;
    font-weight: 500;
-   
+   margin-bottom: 16px;
 }
 
 h5, h6 {
   color: #bbbedd;
+  margin-top: 8px;
 }
 
 li {
