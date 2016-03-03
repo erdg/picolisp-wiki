@@ -26,14 +26,18 @@ input, textarea, select {
 }
 
 body {
-   background-color: #eee;
    margin: 0;
    font-family: 'Exo';
 }
 
 h1, h2, h3, h4, h5, h6 {
-   clear: both;
-   color: #222554;
+   color: #333766;
+   font-weight: 500;
+   
+}
+
+h5, h6 {
+  color: #bbbedd;
 }
 
 li {
@@ -46,19 +50,23 @@ ul li {
 
 /* Links */
 a {
-  font-weight: bold;
   color: #6067af;
   text-decoration: none;
 }
 a:hover,
 a:focus {
     color: #6dc066;
+    text-decoration: underline;
 }
 
 #main {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 300;
-  color: #444444;
+  color: #666666;
+}
+
+#main a {
+  font-weight: 500;
 }
 
 #main li {
@@ -67,7 +75,7 @@ a:focus {
 
 @media screen and (min-width: 900px) {
   #main {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 
@@ -260,8 +268,9 @@ a:focus {
 
 .code {
    font-size: smaller;
+   color: black;
    font-family: monospace;
-   background-color: #cccee5;
+   background-color: #dddeee;
    border-left-color: #6067af;
    border-left-style: solid;
    border-left-width: 3px;
